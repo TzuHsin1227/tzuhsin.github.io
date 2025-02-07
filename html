@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="zh-TW">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>行程、交通與住宿選擇</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>選擇行程、交通與住宿</h1>
+     
+<h2>交通</h2>
+    <form id="selectionForm">
+      <label><input type="checkbox" name="transport" value="台北"> 台北</label>
+        <label><input type="checkbox" name="transport" value="台中"> 台中</label>
+        <label><input type="checkbox" name="transport" value="高雄"> 高雄</label>
+        <label><input type="checkbox" name="transport" value="布袋"> 布袋</label>
+    
+    <h2>行程</h2>
+        <label><input type="checkbox" name="schedule" value="吉貝玩水樂"> 吉貝玩水樂</label>
+        <label><input type="checkbox" name="schedule" value="東海無限逍遙遊"> 東海無限逍遙遊</label>
+        <label><input type="checkbox" name="schedule" value="浪漫七美行腳"> 浪漫七美行腳</label>
+        <label><input type="checkbox" name="schedule" value="神秘南方四島"> 神秘南方四島</label>
+        <label><input type="checkbox" name="schedule" value="瑰麗南海跳島"> 瑰麗南海跳島</label>
+    
+        <h2>住宿</h2>
+        <label><input type="checkbox" name="accommodation" value="喜來登"> 喜來登</label>
+        <label><input type="checkbox" name="accommodation" value="雅霖"> 雅霖</label>
+        <label><input type="checkbox" name="accommodation" value="澎澄"> 澎澄</label>
+    
+        <button type="button" id="calculateBtn">計算金額</button>
+    </form>
+    
+    <h2>計算結果</h2>
+    <table border="1">
+        <tr>
+        </tr>
+        <tbody id="resultTable">
+        </tbody>
+    </table>
+    
+    <script src="script.js"></script>
+</body>
+</html>
+
